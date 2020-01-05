@@ -1,0 +1,21 @@
+{
+    "name": "girorme/net-utils",
+    "description": "A serie of network util functions",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "girorme",
+            "email": "rodrigo.girorme@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "NetUtils\\": "src/"
+        }
+    }
+}
